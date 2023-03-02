@@ -10,8 +10,19 @@ class MainTest {
         //
         int i = 3;
         //
-         int actual = Main.fakuRechner(i);
+        int actual = Main.fakuRechner(i);
         //
         assertEquals(6, actual);
     }
+    @org.junit.jupiter.api.Test
+    void fakuRechnerwhile() {
+
+        //
+        int i = 3;
+        //
+        int actual = Main.fakuRechnerWhile(i);
+        //
+        assertEquals(6, actual);
+    }
+
 }
